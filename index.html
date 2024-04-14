@@ -17,7 +17,7 @@
   <body>
     <nav class="h-20 flex justify-between items-center shadow-lg p-4">
       <div class="logo">Groce</div>
-      <div class="navlinks">
+      <div class="navlinks ml-[12rem]">
         <ul class="flex gap-6">
           <li>Home</li>
           <li>Categories</li>
@@ -36,38 +36,75 @@
     </nav>
     <hr />
 
-    <main class="bg-gray-100 h-screen">
+    <main class="bg-gray-100 ">
+      <!-- Hero Section -->
+      <section>
       <!-- Landing Page -->
       <div class="bring-green grid grid-cols-2">
         <!-- left -->
-        <div class="bg-red-400">
-          <h1>Bring <span>GREEN</span> to Your home and mane you feel <span>BETTER</span></h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at ea ab quod nisi laboriosam adipisci sit repudiandae, asperiores officiis odit similique quam saepe nesciunt eveniet? Repudiandae non odit quia.</p>
-          <div class="count">
-            <div>124k</div>
-            <div>126</div>
-            <div>78k</div>
+        <div class="bg-[#D9D9D9] rounded-br-[200px] pl-16">
+        <h1 class="text-5xl font-bold mt-20">Bring <span class="text-[#437223]">GREEN</span> to <br> Your home and <br> make you feel <span class="text-[#437223]">BETTER</span></h1>
+          <p class="my-10 text-2xl">Lorem ipsum dolor sit amet, consectetur <br>
+            adipiscing elit. Cursus imperdiet sed id <br>
+            elementum. Quam vel aliquam sit.</p>
+          <div class="count flex gap-5">
+            <div>
+              <h3 class="pb-2">124K+</h3>
+              <div class="w-8 h-[0.2rem] bg-black"></div>
+              <p class="pt-1 text-sm">Lorem ipsum <br> consectetur</p>
+            </div>
+            
+            <div>
+              <h3 class="pb-2">126</h3>
+              <div class="w-8 h-[0.2rem] bg-black"></div>
+              <p class="pt-1 text-sm">Lorem ipsum <br> consectetur</p>
+            </div>
+
+            <div>
+              <h3 class="pb-2">78K</h3>
+              <div class="w-8 h-[0.2rem] bg-black"></div>
+              <p class="pt-1 text-sm">Lorem ipsum <br> consectetur</p>
+            </div>
           </div>
-          <button button>Find your plant</button>
+          <button class="text-white text-xl bg-[#437223] px-10 py-4 mt-10 mb-12 rounded-full">Find your plant</button>
         </div>
         <!-- right -->
-        <div class="bg-blue-900">IMAGE of a plant</div>
+          <div class="relative">
+            <img class="h-[650px] w-[800px] absolute left-[-100px] " src="assets/home-tree.png" alt="">
+          </div>
         </div>
         
         <!-- below landing -->
-        <div class="grid grid-cols-3">
-          <div class="flex items-center justify-center border border-black rounded-md">
-            <img class="rounded-full w-20 h-20 inline-block" src="assets/main-1.png" alt="">
-            <p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sint magnam assumenda, nobis sit iure.</p>
+        <div class="grid grid-cols-3 gap-6 mt-14 mx-16">
+
+          <div class="flex items-center justify-center border border-black rounded-[20px]">
+            <img class="rounded-full w-20 h-20  mx-6 my-4" src="assets/main-1.png" alt="">
+            <p class="px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus in libero risus</p>
           </div>
-          <div>a</div>
-          <div>a</div>
-      </div>
+
+          <div class="flex items-center justify-center border border-black rounded-[20px]">
+            <img class="rounded-full w-20 h-20  mx-6 my-4" src="assets/main-2.png" alt="">
+            <p class="px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus in libero risus</p>
+          </div>
+
+          <div class="flex items-center justify-center border border-black rounded-[20px]">
+            <img class="rounded-full w-20 h-20 mx-6 my-4" src="assets/main-3.png" alt="">
+            <p class="px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus in libero risus</p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- Love Your Plant Section -->
+      <section>
+        
+      </section>
     </main>
 
 
     <!-- Footer -->
-    <footer class="bg-[#283646] text-white px-[160px] py-[50px]">
+    <footer class="bg-[#283646] text-white px-[160px] py-[50px] mt-6">
       <div class="above grid grid-cols-2 ">
         <div class="left-side">
           <div class="w-[180px] h-[60px]   bg-blue-400">
