@@ -715,6 +715,38 @@ video {
   top: 15px;
 }
 
+.top-\[\] {
+  top: ;
+}
+
+.top-\[-\] {
+  top: -;
+}
+
+.top-\[-20px\] {
+  top: -20px;
+}
+
+.top-\[-200px\] {
+  top: -200px;
+}
+
+.top-\[-100px\] {
+  top: -100px;
+}
+
+.top-\[-130px\] {
+  top: -130px;
+}
+
+.top-\[-530px\] {
+  top: -530px;
+}
+
+.top-\[-150px\] {
+  top: -150px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1070,6 +1102,34 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[3400px\] {
+  height: 3400px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[1200px\] {
+  height: 1200px;
+}
+
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-12 {
@@ -2426,21 +2486,6 @@ video {
      object-fit: scale-down;
 }
 
-.object-right {
-  -o-object-position: right;
-     object-position: right;
-}
-
-.object-left {
-  -o-object-position: left;
-     object-position: left;
-}
-
-.object-top {
-  -o-object-position: top;
-     object-position: top;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -2612,6 +2657,22 @@ video {
 
 .pt-\[140px\] {
   padding-top: 140px;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-\[100px\] {
+  padding-left: 100px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
