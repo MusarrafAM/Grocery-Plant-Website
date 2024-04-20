@@ -8,3 +8,7 @@
     box-shadow: none;
     background: black;
 }
+
+#curve{
+  fill: transparent;
+}

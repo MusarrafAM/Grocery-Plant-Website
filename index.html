@@ -264,8 +264,16 @@
 
         <!-- 2nd col -->
         
-        <div class="flex items-center justify-center flex-col">
-          <h3>Plant . Tree . Nature</h3>
+        <div class="relative flex items-center justify-center flex-col">
+          <!-- curved text -->
+          <svg class="absolute top-[4%] left-[20%]" w="360" h="130">
+            <path id="curve" d="M 0 120 C 0 120, 130 0, 260 120"></path>
+            <text class="text-[30px]" text-anchor="middle">
+              <textPath href="#curve" startOffset="50%">
+                Plant . Tree . Nature
+              </textPath>
+            </text>
+          </svg>
           <!-- Circle -->
           <div class="w-[70%] h-full  bg-red-500 rounded-full mt-[110px] ">
             <img  class="w-full h-full object-cover rounded-full" src="assets/adventure-3.jpg" alt="">
