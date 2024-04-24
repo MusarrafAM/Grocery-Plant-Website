@@ -9,6 +9,7 @@
     background: black;
 }
 
-#curve{
+#curve, #curve1, #curve2{
   fill: transparent;
 }
+
