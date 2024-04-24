@@ -13,3 +13,31 @@
   fill: transparent;
 }
 
+
+.heart{
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+  transform-origin: center;
+  background-color: #D6EBDC;
+}
+
+.heart::before, .heart::after{
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #D6EBDC;
+}
+
+.heart::before{
+  left: -150px;
+}
+
+.heart::after{
+  top: -150px;
+}
