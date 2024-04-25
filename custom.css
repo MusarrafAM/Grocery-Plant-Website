@@ -41,3 +41,17 @@
 .heart::after{
   top: -150px;
 }
+
+/* Utilities */
+.horizontal-center-custom{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Apply styles only on devices with a maximum width of, for example, 768px */
+@media (min-width: 1324px) {
+  .horizontal-center-custom {
+    left: 20%;
+    transform: none;
+  }
+}
