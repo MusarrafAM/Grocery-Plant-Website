@@ -811,6 +811,26 @@ video {
   top: 64%;
 }
 
+.right-\[30\%\] {
+  right: 30%;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.right-\[2\%\] {
+  right: 2%;
+}
+
+.right-\[6\%\] {
+  right: 6%;
+}
+
+.right-\[5\%\] {
+  right: 5%;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1197,6 +1217,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[\] {
+  height: ;
 }
 
 .w-12 {
@@ -2719,6 +2743,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -2747,8 +2775,16 @@ video {
   padding-top: 50px;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .text-left {
@@ -3425,6 +3461,18 @@ video {
     top: -2%;
   }
 
+  .md\:top-4 {
+    top: 1rem;
+  }
+
+  .md\:right-\[21\%\] {
+    right: 21%;
+  }
+
+  .md\:left-\[-100px\] {
+    left: -100px;
+  }
+
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -3476,6 +3524,14 @@ video {
     height: 120px;
   }
 
+  .md\:h-\[140px\] {
+    height: 140px;
+  }
+
+  .md\:h-\[650px\] {
+    height: 650px;
+  }
+
   .md\:w-\[200px\] {
     width: 200px;
   }
@@ -3484,12 +3540,12 @@ video {
     width: 60%;
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .md\:w-\[800px\] {
+    width: 800px;
   }
 
-  .md\:justify-start {
-    justify-content: flex-start;
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:gap-10 {
@@ -3526,20 +3582,20 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:pt-\[120px\] {
-    padding-top: 120px;
-  }
-
   .md\:pt-0 {
     padding-top: 0px;
   }
 
-  .md\:text-left {
-    text-align: left;
+  .md\:pt-\[120px\] {
+    padding-top: 120px;
   }
 
-  .md\:text-center {
-    text-align: center;
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-4xl {
@@ -3590,6 +3646,14 @@ video {
 
   .lg\:top-\[2\%\] {
     top: 2%;
+  }
+
+  .lg\:left-\[-100px\] {
+    left: -100px;
+  }
+
+  .lg\:right-\[21\%\] {
+    right: 21%;
   }
 
   .lg\:mx-0 {
@@ -3736,11 +3800,6 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:leading-\[70px\] {
