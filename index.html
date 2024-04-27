@@ -22,15 +22,15 @@
         <img src="assets/logo.PNG" alt="">
       </div>
       <div class="navlinks ml-[12rem]">
-        <ul class="flex gap-6">
-          <li class="font-semibold">Home</li>
-          <a href="second.html"><li>Categories</li></a>
+        <ul class="hidden lg:display lg:flex gap-6">
+          <a href="index.html"><li>Home</li></a>
+          <li class="font-semibold">Categories</li>
           <li>Contact</li>
           <li>Blog</li>
           <li>Services</li>
         </ul>
       </div>
-      <div class="navicons flex items-center gap-6">
+      <div class="navicons hidden lg:display lg:flex items-center gap-6">
         <div><img class="rotate90 w-6" src="assets/compare.svg" ></div>
         <div><i class="fa-regular fa-heart"></i></div>
         <div class="relative"><i class="fa-solid fa-bag-shopping "></i><span class="absolute w-4 h-4 bg-[#F9A502] text-white rounded-full left-3 top-[-5px] text-center text-xs">2  </span></div>
@@ -44,11 +44,11 @@
       <!-- Hero Section -->
       <section>
       <!-- Landing Page -->
-      <div class="bring-green grid grid-cols-2">
+      <div class="bring-green md:grid grid-cols-2">
         <!-- left -->
-        <div class="bg-[#D9D9D9] rounded-br-[200px] pl-16">
-        <h1 class="text-5xl font-semibold mt-20">Bring <span class="text-[#437223]">GREEN</span> to <br> Your home and <br> make you feel <span class="text-[#437223]">BETTER</span></h1>
-          <p class="my-10 text-2xl">Lorem ipsum dolor sit amet, consectetur <br>
+        <div class="bg-[#D9D9D9] rounded-br-[200px] pl-4 lg:pl-16 ">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold pt-12 md:pt-0 md:mt-20">Bring <span class="text-[#437223]">GREEN</span> to <br> Your home and <br> make you feel <span class="text-[#437223]">BETTER</span></h1>
+          <p class="my-10 text-lg md:text-xl lg:text-2xl">Lorem ipsum dolor sit amet, consectetur <br>
             adipiscing elit. Cursus imperdiet sed id <br>
             elementum. Quam vel aliquam sit.</p>
           <div class="count flex gap-5">
@@ -70,27 +70,27 @@
               <p class="pt-2 text-sm">Lorem ipsum <br> consectetur</p>
             </div>
           </div>
-          <button class="text-white text-xl bg-[#437223] px-10 py-4 mt-10 mb-12 rounded-full">Find your plant</button>
+          <button class="text-white text-xl bg-[#437223] px-10 py-3 md:py-4 mt-10 mb-12 rounded-full">Find your plant</button>
         </div>
 
         <!-- right -->
           <div class="relative">
             <img class="absolute top-4 right-[21%] h-[140px]" src="assets/circle-heart-gray.png" alt="">
 
-            <img class="absolute h-[650px] w-[800px]  left-[-100px] " src="assets/home-tree.png">
+            <img class="md:absolute h-[650px] w-[800px]  left-[-100px] " src="assets/home-tree.png">
           </div>
         </div>
         
         <!-- below landing -->
-        <div class="grid grid-cols-3 gap-6 mt-14 mx-16">
+        <div class="lg:grid grid-cols-3 gap-6 mt-14 mx-4 md:mx-24 lg:mx-16">
 
           <div class="flex items-center justify-center border border-black rounded-[20px]">
             <img class="rounded-full w-20 h-20  mx-6 my-4" src="assets/main-1.png" alt="">
             <p class="px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus in libero risus</p>
           </div>
 
-          <div class="flex items-center justify-center border border-black rounded-[20px]">
-            <img class="rounded-full w-20 h-20  mx-6 my-4" src="assets/main-2.png" alt="">
+          <div class="flex items-center justify-center border border-black rounded-[20px] my-6 lg:my-0">
+            <img class="rounded-full w-20 h-20 mx-6 my-4" src="assets/main-2.png" alt="">
             <p class="px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Faucibus in libero risus</p>
           </div>
 
