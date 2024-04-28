@@ -819,6 +819,10 @@ video {
   top: 9%;
 }
 
+.bottom-\[70px\] {
+  bottom: 70px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -2836,11 +2840,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -2950,12 +2949,12 @@ video {
   line-height: 50px;
 }
 
-.leading-\[62px\] {
-  line-height: 62px;
-}
-
 .leading-\[70px\] {
   line-height: 70px;
+}
+
+.leading-\[80px\] {
+  line-height: 80px;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -3033,32 +3032,12 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-20 {
-  opacity: 0.2;
-}
-
 .opacity-25 {
   opacity: 0.25;
 }
 
 .opacity-80 {
   opacity: 0.8;
-}
-
-.opacity-60 {
-  opacity: 0.6;
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-100 {
-  opacity: 1;
 }
 
 .bg-blend-normal {
@@ -3484,6 +3463,10 @@ video {
     right: -62px;
   }
 
+  .md\:right-\[50\%\] {
+    right: 50%;
+  }
+
   .md\:top-\[-2\%\] {
     top: -2%;
   }
@@ -3494,6 +3477,22 @@ video {
 
   .md\:top-\[1\%\] {
     top: 1%;
+  }
+
+  .md\:right-\[40\%\] {
+    right: 40%;
+  }
+
+  .md\:bottom-\[90px\] {
+    bottom: 90px;
+  }
+
+  .md\:bottom-\[110px\] {
+    bottom: 110px;
+  }
+
+  .md\:bottom-\[105px\] {
+    bottom: 105px;
   }
 
   .md\:z-0 {
@@ -3675,6 +3674,10 @@ video {
     left: 20%;
   }
 
+  .lg\:right-0 {
+    right: 0px;
+  }
+
   .lg\:right-\[-10\%\] {
     right: -10%;
   }
@@ -3715,6 +3718,22 @@ video {
     top: 2%;
   }
 
+  .lg\:bottom-\[90px\] {
+    bottom: 90px;
+  }
+
+  .lg\:bottom-\[85px\] {
+    bottom: 85px;
+  }
+
+  .lg\:right-\[-20\%\] {
+    right: -20%;
+  }
+
+  .lg\:right-\[-9\%\] {
+    right: -9%;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -3728,6 +3747,10 @@ video {
   .lg\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .lg\:mb-\[140px\] {
+    margin-bottom: 140px;
   }
 
   .lg\:ml-16 {
@@ -3865,8 +3888,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .lg\:leading-\[70px\] {
-    line-height: 70px;
+  .lg\:leading-\[80px\] {
+    line-height: 80px;
   }
 }
 
