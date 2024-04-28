@@ -18,7 +18,7 @@
   </head>
   <body>
     <nav class="h-20 flex justify-between items-center shadow-lg p-4">
-      <div class="logo">
+      <div class="logo cursor-pointer">
         <img src="assets/logo.PNG" alt="">
       </div>
       <div class="navlinks ml-[12rem]">
@@ -31,18 +31,45 @@
         </ul>
       </div>
       <div class="navicons hidden lg:display lg:flex items-center gap-6">
-        <div><img class="rotate90 w-6" src="assets/compare.svg" ></div>
-        <div><i class="fa-regular fa-heart"></i></div>
-        <div class="relative"><i class="fa-solid fa-bag-shopping "></i><span class="absolute w-4 h-4 bg-[#F9A502] text-white rounded-full left-3 top-[-5px] text-center text-xs">2  </span></div>
-        <div><i class="fa-solid fa-magnifying-glass px-1.5 border-x-2 border-gray-400"></i></div>
-        <div class="text-white bg-[#3CB018] py-2 px-4 rounded-md">SIGN IN</div>
+        <div><img class="rotate90 w-6 cursor-pointer" src="assets/compare.svg" ></div>
+        <div><i class="fa-regular fa-heart cursor-pointer"></i></div>
+        <div class="relative cursor-pointer" ><i class="fa-solid fa-bag-shopping "></i><span class="absolute w-4 h-4 bg-[#F9A502] text-white rounded-full left-3 top-[-5px] text-center text-xs">2  </span></div>
+        <div><i class="fa-solid fa-magnifying-glass px-1.5 border-x-2 border-gray-400 cursor-pointer"></i></div>
+        <div class="text-white bg-[#3CB018] py-2 px-4 rounded-md cursor-pointer">SIGN IN</div>
       </div>
 
-      <div class="md:hidden">
+      <div class="lg:hidden">
         <i onclick="onToggleMenu(this)" class="fa-solid fa-bars fa-lg cursor-pointer"></i>
       </div>
+
+      
     </nav>
     <hr />
+
+    <!-- small device nav -->
+    <div class="links absolute lg:hidden top-[-100%] z-20 pt-10  bg-white min-h-[60vh] w-full duration-300">
+      <!-- Nav Links -->
+      <div class="navlinks text-center">
+        <ul class="flex flex-col gap-4">
+          <li class="font-semibold">Home</li>
+          <a href="second.html"><li >Categories</li></a>
+          <li>Contact</li>
+          <li >Blog</li>
+          <li>Services</li>
+        </ul>
+      </div>
+      <!-- NavIcons -->
+      <div class="navicons flex items-center justify-center gap-6 mt-16 ">
+        <div><img class="rotate90 w-6 cursor-pointer" src="assets/compare.svg" ></div>
+        <div><i class="fa-regular fa-heart cursor-pointer"></i></div>
+        <div class="relative cursor-pointer"><i class="fa-solid fa-bag-shopping "></i><span class="absolute w-4 h-4 bg-[#F9A502] text-white rounded-full left-3 top-[-5px] text-center text-xs">2  </span></div>
+        <div><i class="fa-solid fa-magnifying-glass px-1.5 border-x-2 border-gray-400 cursor-pointer"></i></div>
+        <div class="text-white bg-[#3CB018] py-2 px-4 rounded-md cursor-pointer">SIGN IN</div>
+      </div>
+
+    </div>
+
+
 
     <main class="bg-gray-100 ">
       <!-- Hero Section -->
@@ -408,15 +435,19 @@
 
     <!-- Scripts -->
     <script>
-      
+      const links = document.querySelector(".links")
+
       function onToggleMenu(e) {
         if (e.classList.contains("fa-bars")) {
         e.classList.remove("fa-bars");
         e.classList.add("fa-xmark");
+        links.classList.toggle('top-[9%]')
         } 
         else if (e.classList.contains("fa-xmark")) {
         e.classList.remove("fa-xmark");
         e.classList.add("fa-bars");
+        links.classList.toggle('top-[9%]')
+        
     }
   }
 
